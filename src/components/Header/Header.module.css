@@ -1,0 +1,50 @@
+.header {
+    background-color: black;
+    border-bottom: 2px solid #F4CD53;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header span {
+    color: #F4CD53;
+    font-size: 32px;
+    font-weight: 120px;
+}
+
+
+.header a {
+    text-decoration: none;
+    color: white;
+    padding-inline: 16px;
+    font-size: 20px;
+    font-weight: 300px;
+
+    transition-duration: 2s;
+}
+
+.header a:hover {
+    text-decoration: none;
+    color: #F4CD53;
+    padding-inline: 16px;
+    font-size: 25px;
+    font-weight: 300px;
+
+    transition-duration: 2s;
+}
+
+.header button {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+
+    background-color: #F4CD53;
+    border: none;
+}

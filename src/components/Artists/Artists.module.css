@@ -1,0 +1,15 @@
+.artists {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+ margin-block: 50px;
+ font-style: italic;
+
+}
+
+.artists div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

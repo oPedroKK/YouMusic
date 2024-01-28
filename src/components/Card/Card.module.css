@@ -1,0 +1,23 @@
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid #F4CD53;
+    margin: 20px;
+
+    transition-duration: 1s;
+}
+
+.card img:hover {
+    margin-top: -10px;
+
+    width: 200px;
+    height: 200px;
+
+    transition-duration: 1s;
+
+}
+
+.card h4 {
+    margin-top: -10px;
+}

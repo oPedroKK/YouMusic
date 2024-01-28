@@ -1,0 +1,23 @@
+[
+    {
+        "photo": "01",
+        "format": "jpeg",
+        "name": "Juice WRLD"
+    },
+    {
+        "photo": "02",
+        "format": "jpg",
+        "name": "BoyWithUke"
+    },
+    {
+        "photo": "03",
+        "format": "jpeg",
+        "name": "JVKE"
+    },
+    {
+        "photo": "04",
+        "format": "jpeg",
+        "name": "The Kid Laroi"
+    }
+
+]

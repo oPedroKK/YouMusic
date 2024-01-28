@@ -1,0 +1,14 @@
+.category {
+ display: flex;
+ justify-content: center;
+
+ flex-direction: column;
+}
+
+.category div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 5px;
+}
