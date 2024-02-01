@@ -1,8 +1,8 @@
-import styles from "./Card.module.css";
+import styles from "./ArtistCard.module.css";
 
-function Card({ photo, name, format}) {
+function ArtistCard({ photo, name, format}) {
     return (
-        <section className={styles.card}>
+        <section className={styles.ArtistCard}>
             {/* eu vou mudar essa porcaria ainda */}
             <img 
             src={`../images/aimg-${photo}.${format}`}
@@ -12,4 +12,4 @@ function Card({ photo, name, format}) {
     );
 }
 
-export default Card;
+export default ArtistCard;

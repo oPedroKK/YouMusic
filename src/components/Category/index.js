@@ -4,7 +4,7 @@ import musicas from "../../json/music-db.json"
 export const artistsNames = [
     "Juice WRLD",
     "BoyWithUke",
-    "JVKE",
+    "Charlie Brown Jr",
     "The Kid Laroi"
   ]
   
@@ -16,7 +16,7 @@ export function filterArtist(id) {
 function Category({ children, name }) {
     return (
         <section className={styles.category}>
-            <h2>Principais músicas de {name}</h2>
+            <h2>Músicas de {name}</h2>
             <div>
                 {children}
             </div>

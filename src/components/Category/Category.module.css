@@ -1,4 +1,6 @@
 .category {
+padding-top: -10px;
+
  display: flex;
  justify-content: center;
 
@@ -10,5 +12,9 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    gap: 5px;
+    gap: 10px;
+}
+
+.category h2 {
+    padding-top: 64px;
 }

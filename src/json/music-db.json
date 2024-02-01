@@ -1,51 +1,48 @@
 [
     {
-        "id": "mzB1VGEGcSU?si=r0_MpyYkeCjBlesi",
+        "id": "hHtv2XMZlKs",
         "title": "Lucid Dreams",
-        "number": "1",
         "artist": "Juice WRLD"
     },
     {
-        "id": "bHXn-SU7YYg?si=gwHMDkBOgw0URivn",
+        "id": "tzvQDsCuALs",
         "title": "BLEED",
-        "number": "2",
         "artist": "The Kid Laroi"
     },
     {
-        "id": "uTYDGwJmmUE?si=zh_ZjBKiru7hwBRT",
-        "title": "ghost town",
-        "number": "3",
-        "artist": "JVKE"
+        "id": "YxPDdX-GUAc",
+        "title": "Lugar Ao Sol",
+        "artist": "Charlie Brown Jr"
     },
     {
-        "id": "BY41k184qqo?si=nGQePKJhLxgiNMti",
+        "id": "bEU64TsgaEc",
         "title": "Problematic",
-        "number": "4",
         "artist": "BoyWithUke"
     },
     {
-        "id": "iI34LYmJ1Fs?si=b1zvGn1ucIjMIDDf",
+        "id": "yokFi-oDwws",
         "title": "Robbery",
-        "number": "5",
         "artist": "Juice WRLD"
     },
     {
-        "id": "BOyO8sZOaOQ?si=S5vm1Vulu1_2GVrZ",
-        "title": "this is what falling in love feels like",
-        "number": "6",
-        "artist": "JVKE"
+        "id": "k7pr4VTk5cQ",
+        "title": "Como Tudo Deve Ser",
+        "artist": "Charlie Brown Jr"
     },
     {
-        "id": "sPRfjfBkq8k?si=IXkASg63HcmvJDIH",
+        "id": "erUOlZAhbSI",
         "title": "Rockstar",
-        "number": "7",
         "artist": "BoyWithUke"
     },
     {
-        "id": "qWXYx-qEYFk?si=XNWmObT7uTGAUubH",
+        "id": "WmAgBGttM1U",
         "title": "WHAT JUST HAPPEND",
-        "number": "8",
         "artist": "The Kid Laroi"
+    },
+    {
+        "id": "BqhqAVnUgYc",
+        "title": "Lace It",
+        "artist": "Juice WRLD"
     }
     
 ]

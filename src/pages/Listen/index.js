@@ -1,32 +1,35 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Container from "../../components/Container";
-import styles from "./Listen.module.css"
+import musicDB from "../../json/music-db.json";
+import PageNotFound from "../PageNotFound";
 
-import Category, {artistsNames, filterArtist} from "../../components/Category";
-import Musics from "../../components/Musics";
+
+import styles from "./Listen.module.css";
+import { useParams } from "react-router-dom";
+
 
 function Listen() {
+    const params = useParams()
+    const musicID = musicDB.find((musicID) => {
+        return musicID.id === params.id
+    })
+    if(!musicID){
+        return <PageNotFound />
+    }
+
     return (
         <>
             <Header />
-            <Container>
-                <section className={styles.listen}>
-
-                {
-                artistsNames.map((artist_name, index) => 
-                    <Category name={artist_name}>
-                        {
-                        filterArtist(index).map((musica) => {
-                            return <Musics id={musica.id} title={musica.title} key={musica.title}/>
-                        })
-                        }
-                    </Category>
-                    )
-                }
-
-                </section>
-            </Container>
+                <Container>
+                    <section className={styles.listen}>
+                        <iframe 
+                            width="1000" height="640" 
+                            src={`https://www.youtube.com/embed/${musicID.id}`}
+                            title="YouTube video player" 
+                            frameborder="0" ></iframe>
+                    </section>
+                </Container>
             <Footer />
         </>
     );
