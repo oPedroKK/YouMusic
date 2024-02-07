@@ -1,0 +1,18 @@
+.searchlist input, input:focus {
+    outline: none;
+    margin-block: 15px;
+
+    width: 550px;
+    min-width: 250px;
+    height: 40px;
+
+    padding: 20px;
+
+    background-color: #535151;
+    border: 4px solid #F4CD53;
+    border-radius: 16px;
+
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}

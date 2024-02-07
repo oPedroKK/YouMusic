@@ -3,8 +3,8 @@ import Footer from "../../components/Footer"
 import Container from "../../components/Container"
 
 import styles from "./Search.module.css"
-import MusicList from "../../components/MusicList"
 import musics from "../../json/music-db.json"
+import SearchMusicList from "../../components/SearchMusicList"
 
 function Search() {
     return (
@@ -13,7 +13,7 @@ function Search() {
 
             <Container>
                 <section className={styles.searchbox}>
-                    <MusicList musics={musics}/>
+                    <SearchMusicList musics={musics}/>
                 </section>
             </Container>
 
