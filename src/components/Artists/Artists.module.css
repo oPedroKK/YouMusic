@@ -9,10 +9,11 @@
 
  background-color: #353535;
  padding-block: 15px;
-
+ 
 }
 
 .artists div {
+    
     display: flex;
     justify-content: center;
 

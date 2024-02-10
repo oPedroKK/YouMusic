@@ -9,6 +9,9 @@ import MusicCard from "../../components/MusicCard";
 import Artists from "../../components/Artists";
 import Carousel from "../../components/Carousel";
 
+import artistsDB from "../../json/profile-db.json"
+import ArtistCard from "../../components/ArtistCard";
+
 function Home() {
   return (
     <div>
@@ -16,7 +19,15 @@ function Home() {
       <Banner image="01" />
 
       <Container>
-          <Artists />
+          <Artists>
+            
+          {
+              artistsDB.map((artista) => {
+                return <ArtistCard photo={artista.photo} format={artista.format} name={artista.name} key={artista.name}/>
+              })
+          }
+            
+          </ Artists>
       </Container>
 
       <Container>
