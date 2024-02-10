@@ -3,13 +3,17 @@
  flex-direction: column;
  justify-content: center;
 
+
  margin-block: 50px;
  font-style: italic;
+
+ background-color: #353535;
+ padding-block: 15px;
 
 }
 
 .artists div {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+
 }

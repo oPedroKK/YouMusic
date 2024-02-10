@@ -1,20 +1,28 @@
 .category {
-padding-top: -10px;
+    padding-top: -10px;
 
- display: flex;
- justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
- flex-direction: column;
+    flex-direction: column;
+
+    min-width: 280px;
+    max-width: 90vw;
+
+    margin: 0 auto;
+
 }
 
 .category div {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: flex;
+    gap: 2px;
 
-    gap: 10px;
+    max-width: 100%;
 }
 
-.category h2 {
+.category > h2 {
     padding-top: 64px;
+    
 }

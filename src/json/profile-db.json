@@ -18,6 +18,26 @@
         "photo": "04",
         "format": "jpeg",
         "name": "The Kid Laroi"
+    },
+    {
+        "photo": "05",
+        "format": "jpg",
+        "name": "Eminem"
+    },
+    {
+        "photo": "06",
+        "format": "jpg",
+        "name": "Imagine Dragons"
+    },
+    {
+        "photo": "07",
+        "format": "jpg",
+        "name": "Nirvana"
+    },
+    {
+        "photo": "08",
+        "format": "png",
+        "name": "Linkin Park"
     }
 
 ]

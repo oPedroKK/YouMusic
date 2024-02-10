@@ -9,6 +9,7 @@ function SearchMusicList({ musics }){
     
     const [searchText, setSearchText] = useState('')
     const foundMusic = filterMusic(musics, searchText)
+    
 
     function filterMusic() {
         return musics.filter((music) => music.artist.includes(searchText) || music.title.includes(searchText))

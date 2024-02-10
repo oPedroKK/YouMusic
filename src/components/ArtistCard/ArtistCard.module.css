@@ -1,6 +1,11 @@
 .ArtistCard img {
     width: 150px;
     height: 150px;
+
+    display: flex;
+    flex-direction: flex;
+
+
     border-radius: 100%;
     border: 3px solid #F4CD53;
     margin: 20px;
@@ -20,4 +25,5 @@
 
 .ArtistCard h4 {
     margin-top: -10px;
+    
 }

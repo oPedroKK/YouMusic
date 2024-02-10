@@ -2,13 +2,12 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Banner from "../../components/Banner";
 import Container from "../../components/Container";
-import ArtistCard from "../../components/ArtistCard";
 
-import Category, {artistsNames, filterArtist} from "../../components/Category";
+import Category, {artistsGenre, filterArtist} from "../../components/Category";
 import MusicCard from "../../components/MusicCard";
 
 import Artists from "../../components/Artists";
-import artistsDB from "../../json/profile-db.json";
+import Carousel from "../../components/Carousel";
 
 function Home() {
   return (
@@ -17,25 +16,21 @@ function Home() {
       <Banner image="01" />
 
       <Container>
-          <Artists>
-            {
-              artistsDB.map((artista) => {
-                return <ArtistCard photo={artista.photo} format={artista.format} name={artista.name} key={artista.name}/>
-              })
-            }
-          </Artists>
+          <Artists />
       </Container>
 
       <Container>
         <section> 
                 {
-                  artistsNames.map((artist_name, index) =>                  
-                      <Category name={artist_name}>
-                          {
-                          filterArtist(index).map((musica) => {
-                              return <MusicCard id={musica.id} title={musica.title} key={musica.title}/>
-                          })
-                          }
+                  artistsGenre.map((artist_genre, index) =>                  
+                  <Category name={artist_genre}>
+                        <Carousel>
+                            {
+                            filterArtist(index).map((musica) => {
+                                return <MusicCard id={musica.id} title={musica.title} key={musica.title}/>
+                            })
+                            }
+                          </Carousel>
                       </Category>
                     )
                 }

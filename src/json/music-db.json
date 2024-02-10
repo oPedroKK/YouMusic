@@ -2,47 +2,146 @@
     {
         "id": "hHtv2XMZlKs",
         "title": "Lucid Dreams",
-        "artist": "Juice WRLD"
+        "artist": "Juice WRLD",
+        "genre": "Hip-Hop"
     },
     {
         "id": "tzvQDsCuALs",
         "title": "BLEED",
-        "artist": "The Kid Laroi"
+        "artist": "The Kid Laroi",
+        "genre": "Pop"
     },
     {
         "id": "YxPDdX-GUAc",
         "title": "Lugar Ao Sol",
-        "artist": "Charlie Brown Jr"
+        "artist": "Charlie Brown Jr",
+        "genre": "Rock"
     },
     {
         "id": "bEU64TsgaEc",
         "title": "Problematic",
-        "artist": "BoyWithUke"
+        "artist": "BoyWithUke",
+        "genre": "Indie"
     },
     {
         "id": "yokFi-oDwws",
         "title": "Robbery",
-        "artist": "Juice WRLD"
+        "artist": "Juice WRLD",
+        "genre": "Hip-Hop"
     },
     {
         "id": "k7pr4VTk5cQ",
         "title": "Como Tudo Deve Ser",
-        "artist": "Charlie Brown Jr"
+        "artist": "Charlie Brown Jr",
+        "genre": "Rock"
     },
     {
         "id": "erUOlZAhbSI",
         "title": "Rockstar",
-        "artist": "BoyWithUke"
+        "artist": "BoyWithUke",
+        "genre": "Indie"
     },
     {
         "id": "WmAgBGttM1U",
         "title": "WHAT JUST HAPPEND",
-        "artist": "The Kid Laroi"
+        "artist": "The Kid Laroi",
+        "genre": "Pop"
     },
     {
         "id": "BqhqAVnUgYc",
         "title": "Lace It",
-        "artist": "Juice WRLD"
+        "artist": "Juice WRLD",
+        "genre": "Hip-Hop"
+    },
+    {
+        "id": "p3vbH36RdM0",
+        "title": "Diva (feat. Lil Tecca)",
+        "artist": "The Kid Laroi",
+        "genre": "Hip-Hop"
+    },
+    {
+        "id": "nbqMIBYJlvk",
+        "title": "Godzilla (feat. Juice WRLD)",
+        "artist": "Eminem",
+        "genre": "Hip-Hop"
+    },
+    {
+        "id": "RnkShwdXfyc",
+        "title": "Love The Way You Lie (feat. Rihanna)",
+        "artist": "Eminem",
+        "genre": "Pop"
+    },
+    {
+        "id": "JBelUciTD7s",
+        "title": "idtwcbf (friends)",
+        "artist": "BoyWithUke",
+        "genre": "Indie"
+    },
+    {
+        "id": "Kx7B-XvmFtE",
+        "title": "Believer",
+        "artist": "Imagine Dragons",
+        "genre": "Indie"
+    },
+    {
+        "id": "R_BO8C05XLA",
+        "title": "Radioactive",
+        "artist": "Imagine Dragons",
+        "genre": "Indie"
+    },
+    {
+        "id": "ljUtuoFt-8c",
+        "title": "Smells Like Teen Spirit",
+        "artist": "Nirvana",
+        "genre": "Rock"
+    },
+    {
+        "id": "BLZWkjBXfN8",
+        "title": "In The End",
+        "artist": "Linkin Park",
+        "genre": "Rock"
+    },
+    {
+        "id": "5qZQEq_C3vc",
+        "title": "Numb",
+        "artist": "Linkin Park",
+        "genre": "Rock"
+    },
+    {
+        "id": "EYpo0U5g2wk",
+        "title": "Dias de luta, dias de glória",
+        "artist": "Charlie Brown Jr",
+        "genre": "Rock"
+    },
+    {
+        "id": "MJh5whDVxUo",
+        "title": "So Done",
+        "artist": "The Kid Laroi",
+        "genre": "Indie"
+    },
+    {
+        "id": "XfEMj-z3TtA",
+        "title": "STAY (with Justin Bieber)",
+        "artist": "The Kid Laroi",
+        "genre": "Pop"
+    },
+    {
+        "id": "jvwDooKFMLk",
+        "title": "Sharks",
+        "artist": "Imagine Dragons",
+        "genre": "Pop"
+    },
+    {
+        "id": "vxa8ShIm9yw",
+        "title": "Enemy",
+        "artist": "Imagine Dragons",
+        "genre": "Pop"
+    },
+    {
+        "id": "ScEGaaCCl0E",
+        "title": "Go (feat. Juice WRLD)",
+        "artist": "The Kid Laroi",
+        "genre": "Hip-Hop"
     }
     
 ]
