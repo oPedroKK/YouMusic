@@ -11,12 +11,11 @@
 
 .banner h2 {
     width: 100%;
-    padding-block: 10px;
+    padding-block: 20px;
     height: max-content;
 
-    margin-top: -25%;
+    margin-top: -35%;
 
-    /* position: absolute; */
     text-align: center;
     justify-content: center;
 

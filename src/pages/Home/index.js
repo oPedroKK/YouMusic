@@ -12,6 +12,10 @@ import Carousel from "../../components/Carousel";
 import artistsDB from "../../json/profile-db.json"
 import ArtistCard from "../../components/ArtistCard";
 
+
+
+
+
 function Home() {
   return (
     <div>

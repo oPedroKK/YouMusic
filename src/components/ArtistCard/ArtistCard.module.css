@@ -8,7 +8,7 @@
     margin-inline: 3px;
 
     border-radius: 100%;
-    border: 3px solid #F4CD53;
+    border: 4px solid #F4CD53;
 
     transition-duration: 1s;
     
@@ -19,12 +19,12 @@
 
     transform: scale(1.2);
     transition-duration: 1s;
-    box-shadow: 0 0 5px rgb(58, 58, 58);
+    box-shadow: 0 0 8px rgb(58, 58, 58);
     
 
 }
 
 .ArtistCard h4 {
-    margin-top: 10px;
+    margin-top: 15px;
     
 }
