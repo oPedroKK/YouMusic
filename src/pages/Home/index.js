@@ -19,15 +19,18 @@ function Home() {
       <Banner image="01" />
 
       <Container>
+    
           <Artists>
-            
+          
           {
-              artistsDB.map((artista) => {
-                return <ArtistCard photo={artista.photo} format={artista.format} name={artista.name} key={artista.name}/>
-              })
+            artistsDB.map((artista) => {
+                return <ArtistCard photo={artista.photo} format={artista.format} name={artista.name} key={artista.name}/> 
+            })
+
           }
-            
+          
           </ Artists>
+
       </Container>
 
       <Container>
